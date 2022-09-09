@@ -1,6 +1,6 @@
 {
     "name": "zhensoft/think-captcha",
-    "description": "captcha package for thinkphp5",
+    "description": "captcha package for thinkphp5，增加了 ob_clean(); 自己修改，突然发现项目验证码出不来了，修改这里可以，所以单独做了一个包",
     "authors": [
         {
             "name": "vbird",

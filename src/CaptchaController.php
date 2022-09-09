@@ -17,6 +17,7 @@ class CaptchaController
 {
     public function index($id = "")
     {
+		ob_clean();     //wl自己修改，突然发现项目验证码出不来了，修改这里可以，所以单独做了一个包
         $captcha = new Captcha((array)Config::get('captcha'));
         return $captcha->entry($id);
     }
